@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Pactice {
+	
+
+	public static void main(String[] args) {
+		
+		 int n;
+		    
+		 Scanner input = new Scanner(System.in);
+		    
+		 System.out.println("enter a number");
+		 n = input.nextInt();
+		    
+		 if(n % 2 == 0) {
+		        System.out.println("wired");
+		 }
+		 else if (n >= 2 && n <= 5) {
+		        System.out.println(" not wired");
+		 }
+		 else if (n >= 6 && n <= 20) {
+		        System.out.println("wired");
+		 }
+		 else {
+		        System.out.println(" not wired");
+		 }
+
+
+	}
+
+	}
