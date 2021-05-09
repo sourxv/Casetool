@@ -11,16 +11,20 @@ public class Pactice {
 		    
 		 System.out.println("enter a number");
 		 n = input.nextInt();
-		    
+		 
+		 //If n is odd, print Weird
 		 if(n % 2 == 0) {
 		        System.out.println("wired");
 		 }
+		 //If n is even and in the inclusive range of 2 to 5, print Not Weird
 		 else if (n >= 2 && n <= 5) {
 		        System.out.println(" not wired");
 		 }
+		 //If n is even and in the inclusive range of 6 to 20, print Weird
 		 else if (n >= 6 && n <= 20) {
 		        System.out.println("wired");
 		 }
+		 //If n is even and greater than 20, print Not Weird
 		 else {
 		        System.out.println(" not wired");
 		 }
