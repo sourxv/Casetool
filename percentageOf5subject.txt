@@ -1,0 +1,45 @@
+Q)Write a program to calculate the percentage of a given student in the CBSE board exam. 
+His marks from 5 subjects must be taken as input from the keyboard. (Marks are out of 100)
+
+import java.util.Scanner;
+
+public class Pactice {
+	
+
+	public static void main(String[] args) {
+		
+		//max is used so that number of input for user is restricted to 100
+		 int max = 100;
+		 // we took 5 variables as 5 so we can take 5 inputs 
+		 int sub1,sub2,sub3,sub4,sub5,total,per;
+		 
+		 Scanner input = new Scanner(System.in);
+		 
+		 //inputs from user
+		 System.out.println("enter marks of english");
+		 sub1 = input.nextInt();
+		 
+		 System.out.println("enter marks of Maths");
+		 sub2 = input.nextInt();
+		 
+		 System.out.println("enter marks of marathi");
+		 sub3 = input.nextInt();
+		 
+		 System.out.println("enter marks of hindi");
+		 sub4 = input.nextInt();
+		 
+		 System.out.println("enter marks of Science");
+		 sub5 = input.nextInt();
+		 
+		 //total marks add from userInput
+		 total = sub1 + sub2 + sub3 + sub4 + sub5;
+		 System.out.println("total marks are " + total);
+		 
+		 //percentage of total marks (formula Used)
+		 per = total*100/500;
+		 System.out.println("percentage of student is " + per);
+
+
+	}
+
+	}
